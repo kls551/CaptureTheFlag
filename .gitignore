@@ -4,6 +4,7 @@
 
 ## Build generated
 build/
+*.xcodeproj/
 DerivedData/
 
 ## Various settings
@@ -65,3 +66,11 @@ fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots
 fastlane/test_output
+/.project
+
+*/.DS_Store
+
+Pods
+Podfile.lock
+
+GoogleService-Info.plist
